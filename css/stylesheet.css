@@ -1,0 +1,285 @@
+#homebody {
+    font-family: 'Raleway', Arial, sans-serif;
+    margin:0px;
+    background-color: #03a9aa;
+    /*background: url(../images/mainbg.png);
+    background-repeat:no-repeat;
+    background-size: cover;*/
+}
+
+#invitebody, #menubody, #decorbody, #resourcebody {
+    font-family: 'Raleway', Arial, sans-serif;
+    margin:0px;
+    background-color: #fff;
+}
+
+/*--------navbar css below--------*/
+/*--------------------------------*/
+
+.links ul li {
+    list-style-type:none;
+    margin: 0;
+    display: block;
+    float: left;
+    padding: 0 20px 0 20px;
+    font-weight:700;
+}
+
+.links ul li a {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.links ul li a:active {
+    color:#331823 !important;
+    text-decoration: none;
+}
+.links ul li>a:hover {
+   color:#013636!important;
+   text-decoration: none;
+}
+
+.links ul li a:visited {
+   color:#ffffff;
+   text-decoration: none;
+}
+
+.totalnav {
+    background-color:#03a9aa;
+    width: 100%;
+    display:inline-block;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+.rightsidenavbar {
+    display:inline-block;
+    margin-right:4px;
+}
+
+.logo {
+    margin-left:24px;
+    background-image: url(../images/logoimage.png);
+    display:inline-block;
+    height: 50px;
+    width: 200px;
+}
+
+/*--------------------------------*/
+/*--------navbar css above--------*/
+
+
+/*----------------------------------*/
+/*--------homepage css below--------*/
+
+#wrapper{
+    margin: -5px auto;
+    padding: 0px;
+    height:800px;
+    background: url(../images/mainbg.png)bottom right no-repeat;
+    background-position: left center;
+}
+
+.leftsidebg {
+    background-color: #fff;
+    margin: 15px 0;
+}
+
+.button {
+    background-color:#03a9aa;
+    color: #ffffff;
+    text-align: center;
+    /*display: inline-block;*/
+    border-radius:5px;
+    font-size:16px;
+    padding:13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.button a {
+   color:#ffffff;
+   text-decoration: none;
+}
+
+.buttonlinks a:hover {
+   color:#013636;
+   font-weight:700;
+   text-decoration: none;
+}
+
+#homepage-blurb {
+    padding: 100px;
+    padding-bottom: 200px;
+    max-width: 400px;
+    margin:auto;
+}
+
+/*--------homepage css above--------*/
+/*----------------------------------*/
+
+
+
+/*--------------------------------*/
+/*--------   pages below  --------*/
+.protip {
+    background-color: #FFDD79;
+    padding: 6px;
+}
+
+.hashtag {
+    font-weight: 700;
+}
+
+.pagestext {
+    width: 70%;
+    margin:auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 1em;
+    line-height: 1.75em;
+}
+
+.pagestext h1 {
+    line-height: 1.5em;
+}
+
+.pagestext a {
+    text-decoration: none;
+    font-weight: 700;
+    color:#03a9aa;
+    
+}
+
+.pagesheader>p {
+   text-align: center;
+}
+
+#inviteheader p {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 100px;
+    background:url(../images/invitationsbg.png);
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menuheader p {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 100px;
+    font-weight: 700;
+    background:url(../images/menubg.jpg);
+    background-position: bottom;
+    background-attachment: fixed;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255,255,255);
+}
+
+
+#decorheader p {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 100px;
+    font-weight: 700;
+    background:url(../images/decorbg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#resourcesheader p {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 100px;
+    font-weight: 700;
+    background:url(../images/resourcesbg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255,255,255);
+}
+
+/*--------------------------------*/
+/*--------   pages above  --------*/
+
+
+
+/*--------------------------------*/
+/*----------Footer Below----------*/
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #03a9aa;
+  text-align: center;
+  padding: 30px 0px;
+
+}
+
+.footer-container {
+    text-align: center;
+    background-color: #673147;
+    clear:both;
+
+}
+
+.socialmedia li {
+    list-style-type: none;
+    display:inline;
+    text-align: center;
+}
+
+#footertext p {
+    text-align: center;
+    margin:auto;
+    color:#fff;
+}
+
+
+/*----------Footer Above----------*/
+/*--------------------------------*/
+
+
+/* GENERAL ACTIONS BELOW */
+
+.floatright {
+    float:right;
+}
+
+.floatleft{
+    float:left;
+}
+
+#preheader p {
+    margin: 0;
+    padding: 0;
+}
+
+.bigtext p {
+    font-weight:900;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.liltext p {
+    font-weight:400;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%
+}
