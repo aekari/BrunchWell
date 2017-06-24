@@ -7,7 +7,7 @@
 .homebody {
     font-family: 'Raleway', Arial, sans-serif;
     margin: 0px;
-    background-color: #03a9aa;
+    background-color: #fff;
 }
 
 #invitebody,
@@ -67,7 +67,7 @@
     padding: 15px 15px;
 }
 .links a:active {
-    color: #331823;
+    color: ##013636;
     text-decoration: none;
 }
 .links a:hover {
@@ -76,7 +76,7 @@
     transition: .5s;
 }
 .links a:visited {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -90,7 +90,7 @@
 .wrapper {
     margin: 0;
     padding: 30px;
-    height: 150vh;
+    height: 100vh;
     background: url(../images/mainbg.png)bottom right no-repeat;
     background-position: left center;
 }
