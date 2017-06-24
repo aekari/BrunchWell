@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
-
 * {
     box-sizing: border-box;
 }
-
 .homebody {
     font-family: 'Raleway', Arial, sans-serif;
     margin: 0px;
     background-color: #fff;
 }
-
-#invitebody,
+.invitebody,
 #menubody,
 #decorbody,
 #resourcebody {
     font-family: 'Raleway', Arial, sans-serif;
     margin: 0px;
     background-color: #fff;
+}
+.pagesbody {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 /* GENERAL ACTIONS BELOW */
@@ -25,15 +27,11 @@
     float: left;
 }
 
-/*--------navbar css below--------*/
-/*--------------------------------*/
-
 .totalnav {
     background-color: #03a9aa;
     width: 100%;
     padding: 10px 0;
 }
-
 .flexcontainer {
     display: flex;
     flex-wrap: wrap;
@@ -56,7 +54,6 @@
     margin: 0 10px;
     list-style: none;
 }
-
 .links li {
     list-style: none;
 }
@@ -80,13 +77,6 @@
     text-decoration: none;
 }
 
-/*--------------------------------*/
-/*--------navbar css above--------*/
-
-
-/*----------------------------------*/
-/*--------homepage css below--------*/
-
 .wrapper {
     margin: 0;
     padding: 30px;
@@ -95,7 +85,7 @@
     background-position: left center;
 }
 .leftsidebg {
-    background-color: rgba(255,255,255, .8);
+    background-color: rgba(255, 255, 255, .8);
     padding: 30px;
     width: 520px;
     border-radius: 5px;
@@ -120,14 +110,12 @@
     text-decoration: none;
     transition: .5s;
 }
-
 .preheader p {
     margin: 5px 0;
     padding: 0;
     font-size: 20px;
     line-height: 0;
 }
-
 .bigtext p {
     font-weight: 900;
     font-size: 60px;
@@ -140,12 +128,7 @@
     font-size: 20px;
     line-height: 150%;
 }
-/*--------homepage css above--------*/
-/*----------------------------------*/
 
-
-/*--------------------------------*/
-/*--------   pages below  --------*/
 .protip {
     background-color: #FFDD79;
     padding: 6px;
@@ -171,74 +154,45 @@
 }
 .pagesheader>p {
     text-align: center;
+    padding: 150px 0;
+    font-size: 100px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 #inviteheader p {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    font-size: 100px;
     background: url(../images/invitationsbg.png);
     background-position: center;
     background-attachment: fixed;
-    margin-top: -5px;
-    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #menuheader p {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    font-size: 100px;
-    font-weight: 700;
     background: url(../images/menubg.jpg);
     background-position: bottom;
     background-attachment: fixed;
-    margin-top: -5px;
-    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 255, 255);
 }
 #decorheader p {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    font-size: 100px;
-    font-weight: 700;
     background: url(../images/decorbg.jpg);
     background-position: center;
     background-attachment: fixed;
-    margin-top: -5px;
-    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #resourcesheader p {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    font-size: 100px;
-    font-weight: 700;
     background: url(../images/resourcesbg.jpg);
     background-position: center;
     background-attachment: fixed;
-    margin-top: -5px;
-    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 255, 255);
 }
 
-/*--------------------------------*/
-
-
-/*--------   pages above  --------*/
-
-
-/*--------------------------------*/
-
-
-/*----------Footer Below----------*/
-
 .footer {
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     /*right: 0;
@@ -248,12 +202,10 @@
     text-align: center;
     padding: 30px 0px;
     color: #fff;
-
 }
 .footer-container {
     text-align: center;
     background-color: #673147;
-
 }
 .socialmedia li {
     list-style-type: none;
@@ -263,7 +215,6 @@
     text-align: center;
 }
 
-/*----------Footer Above----------*/
-
-
-/*--------------------------------*/
+@media (max-width: 728px){
+    
+}
