@@ -64,7 +64,7 @@
     padding: 15px 15px;
 }
 .links a:active {
-    color: ##013636;
+    color: #013636;
     text-decoration: none;
 }
 .links a:hover {
@@ -73,7 +73,6 @@
     transition: .5s;
 }
 .links a:visited {
-    color: #fff;
     text-decoration: none;
 }
 
@@ -205,7 +204,7 @@
 }
 .footer-container {
     text-align: center;
-    background-color: #673147;
+    background-color: #fff;
 }
 .socialmedia li {
     list-style-type: none;
@@ -216,5 +215,29 @@
 }
 
 @media (max-width: 728px){
+    .totalnav{
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-bottom:0;
+        margin:0;
+    }
+    .logo,
+    .links {
+        padding:0;
+        margin:0;
+        width:100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .logo img,
+    .links li{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .links a{
+        border-top: 2px solid #fff;
+    }
     
 }
