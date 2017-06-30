@@ -83,6 +83,14 @@
     background: url(../images/mainbg.png)bottom right no-repeat;
     background-position: left center;
 }
+
+.mediaqueryheaderimg{
+    height:250px;
+    background: url(../images/mainbg.png);
+    display: none;
+    width:100%;
+}
+
 .leftsidebg {
     background-color: rgba(255, 255, 255, .8);
     padding: 30px;
@@ -214,14 +222,26 @@
     text-align: center;
 }
 
+
+
+
+
+
+
+
 @media (max-width: 728px){
-    .totalnav{
+    
+    body {
+       padding:0;
+        margin:0; 
+    }
+    .totalnav {
         justify-content: center;
         flex-wrap: nowrap;
         flex-direction: column;
-        padding-bottom:0;
         margin:0;
     }
+    
     .logo,
     .links {
         padding:0;
@@ -230,14 +250,41 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+    
     .logo img,
-    .links li{
+    .links li {
         width: 100%;
         text-align: center;
     }
     
-    .links a{
-        border-top: 2px solid #fff;
+    .links a {
+        border-top: 1.5px solid #fff;
+    }
+    .wrapper {
+        background:none;
+        margin:0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .leftsidebg{
+        display:flex;
+        flex-direction: column;
+        padding:0;
+        margin:0;
+    }
+    
+    .mediaqueryheaderimg {
+        display:flex;
+        background-size: cover;
+        padding:0;
+        margin:0;
+    }
+    
+    .preheader p {
+        padding-top:30px;
     }
     
 }
