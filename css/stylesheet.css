@@ -21,8 +21,6 @@
     flex-direction: column;
 }
 
-/* GENERAL ACTIONS BELOW */
-
 .floatleft {
     float: left;
 }
@@ -85,10 +83,9 @@
 }
 
 .mediaqueryheaderimg{
-    height:250px;
+    height:150px;
     background: url(../images/mainbg.png);
     display: none;
-    width:100%;
 }
 
 .leftsidebg {
@@ -227,7 +224,7 @@
 
 
 
-
+/* MEDIA QUERY BELOW*/
 
 @media (max-width: 728px){
     
@@ -266,21 +263,20 @@
         padding: 0;
         display: flex;
         justify-content: center;
-        
     }
     
     .leftsidebg{
         display:flex;
         flex-direction: column;
-        padding:0;
         margin:0;
     }
     
     .mediaqueryheaderimg {
         display:flex;
-        background-size: cover;
+        background-size:cover;
         padding:0;
         margin:0;
+        background-position:center;
     }
     
     .preheader p {
