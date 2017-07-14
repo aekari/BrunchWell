@@ -8,9 +8,9 @@
     background-color: #fff;
 }
 .invitebody,
-#menubody,
-#decorbody,
-#resourcebody {
+.menubody,
+.decorbody,
+.resourcebody {
     font-family: 'Raleway', Arial, sans-serif;
     margin: 0px;
     background-color: #fff;
@@ -84,7 +84,7 @@
 
 .mediaqueryheaderimg{
     height:150px;
-    background: url(../images/mainbg.png);
+    background: url(../images/mealone.png);
     display: none;
 }
 
@@ -164,14 +164,15 @@
     margin-bottom: 20px;
     font-weight: 700;
 }
-#inviteheader p {
-    background: url(../images/invitationsbg.png);
-    background-position: center;
+.inviteheader p {
+    background: url(../images/invitationsbg.jpg);
+    background-position: top;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    color: rgb(255, 255, 255);
 }
-#menuheader p {
+.menuheader p {
     background: url(../images/menubg.jpg);
     background-position: bottom;
     background-attachment: fixed;
@@ -179,14 +180,14 @@
     background-size: cover;
     color: rgb(255, 255, 255);
 }
-#decorheader p {
+.decorheader p {
     background: url(../images/decorbg.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#resourcesheader p {
+.resourcesheader p {
     background: url(../images/resourcesbg.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -281,6 +282,10 @@
     
     .preheader p {
         padding-top:30px;
+    }
+    
+    .inviteheader p {
+        background-position: top left;
     }
     
 }
