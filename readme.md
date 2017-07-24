@@ -5,10 +5,10 @@ The site features a responsive mobile-friendly design, parallax image scrolling,
 
 | Image Sources |
 | ------ |
-| pixabay.com |
-| StockSnap.io |
-| unsplash.com |
-| kaboompics.com |
-| epicantus.tumblr.com |
-| createherstock.com |
+| [pixabay.com](https://pixabay.com) |
+| [StockSnap.io](https://stocksnap.io) |
+| [unsplash.com](https://unsplash.com) |
+| [kaboompics.com](http://kaboompics.com) |
+| [epicantus.tumblr.com](http://epicantus.tumblr.com) |
+| [createHERstock.com](http://www.createherstock.com) |
 | [Flat Minimal Social Media Icons](https://dribbble.com/shots/1427054-Flat-Minimalistic-Social-Icons) |
