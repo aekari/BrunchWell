@@ -12,3 +12,9 @@ The site features a responsive mobile-friendly design, parallax image scrolling,
 | [epicantus.tumblr.com](http://epicantus.tumblr.com) |
 | [createHERstock.com](http://www.createherstock.com) |
 | [Flat Minimal Social Media Icons](https://dribbble.com/shots/1427054-Flat-Minimalistic-Social-Icons) |
+
+ ___                      _    _ _ _       _  _ 
+| . > _ _  _ _ ._ _  ___ | |_ | | | | ___ | || |
+| . \| '_>| | || ' |/ | '| . || | | |/ ._>| || |
+|___/|_|  `___||_|_|\_|_.|_|_||__/_/ \___.|_||_|
+
