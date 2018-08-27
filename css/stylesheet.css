@@ -6,74 +6,54 @@
 }
 .body {
     font-family: 'Raleway', Arial, sans-serif;
-    margin: 0px;
     background-color: #03a9aa;
 }
 .pagesbody {
     display: flex;
     flex-flow: column wrap;
-    /*
-    flex-wrap: wrap;
-    flex-direction: column;
-*/
 }
-
-/*
-.floatleft {
-    float: left;
-}
-*/
-
 
 /*NAVITAGION BAR*/
 
 .totalnav {
     background-color: #03a9aa;
     width: 100%;
-    padding: 10px 0
+    padding: 10px 0;
 }
 .flexcontainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .flexchildnav {
     display: flex;
     flex-wrap: wrap;
-    align-items: center
+    align-items: center;
 }
 .logo {
     margin-left: 25px;
     background-image: url(../images/logoimage.png);
     height: 50px;
-    width: 200px
+    width: 200px;
 }
 .links {
     float: left;
     font-weight: 700;
     margin: 0 10px;
-    list-style: none
 }
 .links li {
-    list-style: none
+    list-style: none;
+    text-transform: uppercase;
 }
 .links a {
     color: #fff;
     text-decoration: none;
-    display: block;
-    padding: 15px 15px
-}
-.links a:active {
-    color: #013636;
-    text-decoration: none
+    padding: 15px 15px;
 }
 .links a:hover {
     color: #013636;
     text-decoration: none;
-    transition: .5s
-}
-.links a:visited {
-    text-decoration: none
+    transition: .5s;
 }
 
 /*FRONT PAGE*/
@@ -476,19 +456,26 @@ body {
     text-align: center;
     background-color: #fff;
 }
+
+/*
 .footertext p {
     text-align: center;
 }
+*/
+
 @media (max-width: 728px) {
     body {
+        /*
+        
         padding: 0;
         margin: 0;
+*/
     }
     .totalnav {
         justify-content: center;
         flex-wrap: nowrap;
         flex-direction: column;
-        margin: 0;
+        /*        margin: 0;*/
     }
     .logo,
     .links {
@@ -510,23 +497,25 @@ body {
         background: none;
         margin: 0;
         padding: 0;
-        display: flex;
+        /*        display: flex;*/
         justify-content: center;
     }
     .leftsidebg {
         display: flex;
         flex-direction: column;
-        margin: 0;
+        /*        margin: 0;*/
     }
     .mediaqueryheaderimg {
         display: flex;
         background-size: cover;
+        /*
         padding: 0;
         margin: 0;
-        background-position: center
+*/
+        background-position: center;
     }
     .preheader p {
-        padding-top: 30px;
+        padding: 30px 0 0 0;
     }
     .inviteheader p {
         background-position: top left;
