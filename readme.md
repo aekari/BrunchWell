@@ -1,6 +1,6 @@
 # BrunchWell
 
-#### *Learn how to host a successful brunch for a few of your friends at home.* View it [**here**](https://aekari.github.io/BrunchWell/ "BrunchWell").
+#### *Learn how to host a successful brunch for a few of your friends at home.* View it live [**here**](https://aekari.github.io/BrunchWell/ "BrunchWell").
 
 <img src= "https://i.imgur.com/77Rhe2E.png" width="50%">
 
