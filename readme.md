@@ -12,4 +12,4 @@
 ## Description
 The website has a responsive mobile-friendly design, parallax image scrolling, and a bright, welcoming color palette. 
 <br><br>
-Copyright © 2017 Ashleigh Nichols
+Copyright © 2017 [Ashleigh Ekari](https://www.ashleighekari.com)
