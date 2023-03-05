@@ -10,6 +10,6 @@
 * ![](https://img.shields.io/badge/-CSS-black.svg?style=flat-square&logo=css3&colorB=000)
 
 ## Description
-The website has a responsive mobile-friendly design, parallax image scrolling, and a bright, welcoming color palette. 
+A website about brunching that has a responsive mobile-friendly design, parallax image scrolling, and a bright, welcoming color palette. 
 <br><br>
 Copyright © 2017 [Ashleigh Ekari](https://www.ashleighekari.com)
