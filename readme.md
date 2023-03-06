@@ -6,8 +6,8 @@
 
 ## Technologies Used
 
-* ![](https://img.shields.io/badge/-HTML-black.svg?style=flat-square&logo=html5&colorB=000)
-* ![](https://img.shields.io/badge/-CSS-black.svg?style=flat-square&logo=css3&colorB=000)
+![](https://img.shields.io/badge/-HTML-black.svg?style=flat-square&logo=html5&colorB=000)
+![](https://img.shields.io/badge/-CSS-black.svg?style=flat-square&logo=css3&colorB=000)
 
 ## Description
 A website about brunch and event planning that has a responsive mobile-friendly design, parallax image scrolling, and a bright, welcoming color palette. View it live [**here**](https://aekari.github.io/BrunchWell/ "BrunchWell").
